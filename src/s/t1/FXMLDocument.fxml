@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="s.t1.FXMLDocumentController">
+   <children>
+      <Pane fx:id="ceaser" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="614.0" visible="false">
+         <children>
+            <ImageView fitHeight="385.0" fitWidth="628.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="57.0" layoutY="32.0" prefHeight="313.0" prefWidth="497.0" style="-fx-background-color: #ffffff; -fx-opacity: .6; -fx-background-radius: 20;">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="39.0" prefWidth="73.0" text="Key:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Key" layoutX="63.0" layoutY="16.0" prefHeight="39.0" prefWidth="46.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <JFXButton layoutX="443.0" layoutY="1.0" onAction="#back" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@z8.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </Pane>
+            <Label layoutX="210.0" layoutY="120.0" style="-fx-background-color: #800000; -fx-background-radius: 5; -fx-opacity: .7;" text="plain" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="360.0" layoutY="120.0" style="-fx-background-color: #800000; -fx-background-radius: 5; -fx-opacity: 0.6;" text="ciper" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <JFXToggleButton fx:id="togg" layoutX="275.0" layoutY="110.0" text=" " toggleColor="#330000" toggleLineColor="MAROON" unToggleColor="#ff4d4d" unToggleLineColor="RED" />
+            <JFXTextField fx:id="text" focusColor="MAROON" labelFloat="true" layoutX="115.0" layoutY="185.0" onAction="#ceas" prefHeight="49.0" prefWidth="389.0" promptText="Enter The Text Here" unFocusColor="BLACK">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <Label fx:id="l" layoutX="105.0" layoutY="290.0" prefHeight="39.0" prefWidth="404.0" style="-fx-background-color: #800000; -fx-background-radius: 5; -fx-opacity: .7;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="change" layoutX="246.0" layoutY="1.0" prefHeight="30.0" prefWidth="123.0" style="-fx-background-color: #800000; -fx-background-radius: 50;" text="Ceaser" textFill="WHITE">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="trans" prefHeight="385.0" prefWidth="616.0">
+         <children>
+            <ImageView fitHeight="446.0" fitWidth="686.0" layoutX="-35.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@263.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="57.0" layoutY="32.0" prefHeight="313.0" prefWidth="497.0" style="-fx-background-color: #ffffff; -fx-opacity: .6; -fx-background-radius: 20;">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="39.0" prefWidth="73.0" text="Key:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Key1" layoutX="63.0" layoutY="16.0" prefHeight="39.0" prefWidth="142.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <JFXButton layoutX="443.0" layoutY="1.0" onAction="#back" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@z8.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </Pane>
+            <Label layoutX="210.0" layoutY="120.0" style="-fx-background-color: #0033cc; -fx-background-radius: 5; -fx-opacity: .7;" text="plain" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="360.0" layoutY="120.0" style="-fx-background-color: #0033cc; -fx-background-radius: 5; -fx-opacity: 0.6;" text="ciper" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <JFXToggleButton fx:id="togg1" layoutX="275.0" layoutY="110.0" text=" " toggleColor="#000066" toggleLineColor="#00001a" unToggleColor="#005ce6" unToggleLineColor="#003380" />
+            <JFXTextField fx:id="text1" focusColor="#0033cc" labelFloat="true" layoutX="115.0" layoutY="185.0" onAction="#transposition" prefHeight="49.0" prefWidth="389.0" promptText="Enter The Text Here" unFocusColor="BLACK">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <Label fx:id="l1" layoutX="105.0" layoutY="290.0" prefHeight="39.0" prefWidth="404.0" style="-fx-background-color: #0033cc; -fx-background-radius: 5; -fx-opacity: .7;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="transposition" layoutX="200.0" layoutY="1.0" prefHeight="56.0" prefWidth="237.0" style="-fx-background-color: #0033cc; -fx-background-radius: 50;" text="Transposition" textFill="WHITE">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="full" prefHeight="385.0" prefWidth="616.0">
+         <children>
+            <ImageView fitHeight="446.0" fitWidth="686.0" layoutX="-35.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@263.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="57.0" layoutY="32.0" prefHeight="313.0" prefWidth="497.0" style="-fx-background-color: #ffffff; -fx-opacity: .6; -fx-background-radius: 20;">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="39.0" prefWidth="73.0" text="Key:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Key3" layoutX="63.0" layoutY="16.0" prefHeight="39.0" prefWidth="142.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <JFXButton layoutX="443.0" layoutY="1.0" onAction="#back" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@z8.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </Pane>
+            <Label layoutX="210.0" layoutY="120.0" style="-fx-background-color: #0033cc; -fx-background-radius: 5; -fx-opacity: .7;" text="plain" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="360.0" layoutY="120.0" style="-fx-background-color: #0033cc; -fx-background-radius: 5; -fx-opacity: 0.6;" text="ciper" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <JFXToggleButton fx:id="togg3" layoutX="275.0" layoutY="110.0" text=" " toggleColor="#000066" toggleLineColor="#00001a" unToggleColor="#005ce6" unToggleLineColor="#003380" />
+            <JFXTextField fx:id="text3" focusColor="#0033cc" labelFloat="true" layoutX="115.0" layoutY="185.0" onAction="#full_vigenere" prefHeight="49.0" prefWidth="389.0" promptText="Enter The Text Here" unFocusColor="BLACK">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <Label fx:id="l3" layoutX="105.0" layoutY="290.0" prefHeight="39.0" prefWidth="404.0" style="-fx-background-color: #0033cc; -fx-background-radius: 5; -fx-opacity: .7;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="transposition1" layoutX="200.0" layoutY="1.0" prefHeight="56.0" prefWidth="237.0" style="-fx-background-color: #0033cc; -fx-background-radius: 50;" text=" Full vigenere" textFill="WHITE">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="play" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="614.0">
+         <children>
+            <ImageView fitHeight="385.0" fitWidth="628.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="57.0" layoutY="32.0" prefHeight="313.0" prefWidth="497.0" style="-fx-background-color: #ffffff; -fx-opacity: .6; -fx-background-radius: 20;">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="39.0" prefWidth="73.0" text="Key:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Key2" layoutX="63.0" layoutY="16.0" prefHeight="39.0" prefWidth="100.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <JFXButton layoutX="443.0" layoutY="1.0" onAction="#back" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@z8.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </Pane>
+            <Label layoutX="210.0" layoutY="120.0" style="-fx-background-color: #800000; -fx-background-radius: 5; -fx-opacity: .7;" text="plain" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="360.0" layoutY="120.0" style="-fx-background-color: #800000; -fx-background-radius: 5; -fx-opacity: 0.6;" text="ciper" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <JFXToggleButton fx:id="togg2" layoutX="275.0" layoutY="110.0" text=" " toggleColor="#330000" toggleLineColor="MAROON" unToggleColor="#ff4d4d" unToggleLineColor="RED" />
+            <JFXTextField fx:id="text2" focusColor="MAROON" labelFloat="true" layoutX="115.0" layoutY="185.0" onAction="#play_fair" prefHeight="49.0" prefWidth="389.0" promptText="Enter The Text Here" unFocusColor="BLACK">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <Label fx:id="l2" layoutX="105.0" layoutY="290.0" prefHeight="39.0" prefWidth="404.0" style="-fx-background-color: #800000; -fx-background-radius: 5; -fx-opacity: .7;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="224.0" layoutY="4.0" prefHeight="56.0" prefWidth="171.0" style="-fx-background-color: #800000; -fx-background-radius: 50;" text=" play fire" textFill="WHITE">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="com" onDragDetected="#play_fair" prefHeight="385.0" prefWidth="616.0">
+         <children>
+            <ImageView fitHeight="446.0" fitWidth="686.0" layoutX="-35.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@263.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="57.0" layoutY="32.0" prefHeight="313.0" prefWidth="497.0" style="-fx-background-color: #ffffff; -fx-opacity: .6; -fx-background-radius: 20;">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="39.0" prefWidth="73.0" text="Key:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Key4" disable="true" layoutX="63.0" layoutY="16.0" prefHeight="39.0" prefWidth="142.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <JFXButton layoutX="443.0" layoutY="1.0" onAction="#back" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@z8.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </Pane>
+            <Label layoutX="210.0" layoutY="120.0" style="-fx-background-color: #0033cc; -fx-background-radius: 5; -fx-opacity: .7;" text="plain" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="360.0" layoutY="120.0" style="-fx-background-color: #0033cc; -fx-background-radius: 5; -fx-opacity: 0.6;" text="ciper" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <JFXToggleButton fx:id="togg4" layoutX="275.0" layoutY="110.0" text=" " toggleColor="#000066" toggleLineColor="#00001a" unToggleColor="#005ce6" unToggleLineColor="#003380" />
+            <JFXTextField fx:id="text4" focusColor="#0033cc" labelFloat="true" layoutX="115.0" layoutY="185.0" onAction="#combination" prefHeight="49.0" prefWidth="389.0" promptText="Enter The Text Here" unFocusColor="BLACK">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <Label fx:id="l4" layoutX="105.0" layoutY="290.0" prefHeight="39.0" prefWidth="404.0" style="-fx-background-color: #0033cc; -fx-background-radius: 5; -fx-opacity: .7;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="transposition11" layoutX="200.0" layoutY="1.0" prefHeight="56.0" prefWidth="237.0" style="-fx-background-color: #0033cc; -fx-background-radius: 50;" text="Combination" textFill="WHITE">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="hill" onDragDetected="#play_fair" prefHeight="385.0" prefWidth="616.0">
+         <children>
+            <ImageView fitHeight="446.0" fitWidth="686.0" layoutX="-35.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@263.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="57.0" layoutY="32.0" prefHeight="313.0" prefWidth="497.0" style="-fx-background-color: #ffffff; -fx-opacity: .6; -fx-background-radius: 20;">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="39.0" prefWidth="73.0" text="Key:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Key5" disable="true" layoutX="63.0" layoutY="16.0" prefHeight="39.0" prefWidth="142.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <JFXButton layoutX="443.0" layoutY="1.0" onAction="#back" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@z8.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </Pane>
+            <Label layoutX="210.0" layoutY="120.0" style="-fx-background-color: #0033cc; -fx-background-radius: 5; -fx-opacity: .7;" text="plain" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="360.0" layoutY="120.0" style="-fx-background-color: #0033cc; -fx-background-radius: 5; -fx-opacity: 0.6;" text="ciper" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <JFXToggleButton fx:id="togg5" layoutX="275.0" layoutY="110.0" text=" " toggleColor="#000066" toggleLineColor="#00001a" unToggleColor="#005ce6" unToggleLineColor="#003380" />
+            <JFXTextField fx:id="text5" focusColor="#0033cc" labelFloat="true" layoutX="115.0" layoutY="185.0" onAction="#combination" prefHeight="49.0" prefWidth="389.0" promptText="Enter The Text Here" unFocusColor="BLACK">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <Label fx:id="l5" layoutX="105.0" layoutY="290.0" prefHeight="39.0" prefWidth="404.0" style="-fx-background-color: #0033cc; -fx-background-radius: 5; -fx-opacity: .7;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="transposition111" layoutX="200.0" layoutY="1.0" prefHeight="56.0" prefWidth="190.0" style="-fx-background-color: #0033cc; -fx-background-radius: 50;" text="Hill Cipher" textFill="WHITE">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="one_time" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="614.0">
+         <children>
+            <ImageView fitHeight="385.0" fitWidth="628.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="57.0" layoutY="32.0" prefHeight="313.0" prefWidth="497.0" style="-fx-background-color: #ffffff; -fx-opacity: .6; -fx-background-radius: 20;">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="39.0" prefWidth="73.0" text="Key:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Key6" layoutX="63.0" layoutY="16.0" prefHeight="39.0" prefWidth="100.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <JFXButton layoutX="443.0" layoutY="1.0" onAction="#back" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@z8.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </Pane>
+            <Label layoutX="210.0" layoutY="120.0" style="-fx-background-color: #800000; -fx-background-radius: 5; -fx-opacity: .7;" text="plain" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="360.0" layoutY="120.0" style="-fx-background-color: #800000; -fx-background-radius: 5; -fx-opacity: 0.6;" text="ciper" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <JFXToggleButton fx:id="togg6" layoutX="275.0" layoutY="110.0" text=" " toggleColor="#330000" toggleLineColor="MAROON" unToggleColor="#ff4d4d" unToggleLineColor="RED" />
+            <JFXTextField fx:id="text6" focusColor="MAROON" labelFloat="true" layoutX="115.0" layoutY="185.0" onAction="#one_time" prefHeight="49.0" prefWidth="389.0" promptText="Enter The Text Here" unFocusColor="BLACK">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <Label fx:id="l6" layoutX="105.0" layoutY="290.0" prefHeight="39.0" prefWidth="404.0" style="-fx-background-color: #800000; -fx-background-radius: 5; -fx-opacity: .7;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="224.0" layoutY="4.0" prefHeight="56.0" prefWidth="171.0" style="-fx-background-color: #800000; -fx-background-radius: 50;" text="one time" textFill="WHITE">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="p1" prefHeight="385.0" prefWidth="614.0">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="686.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@encryption-1.jpg" />
+               </image>
+            </ImageView>
+            <Pane prefHeight="387.0" prefWidth="614.0" style="-fx-background-color: #000000; -fx-opacity: .7;" />
+            <JFXButton layoutX="110.0" layoutY="155.0" onAction="#poly" prefHeight="39.0" prefWidth="163.0" style="-fx-background-color: #00394d; -fx-background-radius: 10; -fx-opacity: .9;" text="poly alphabetic" textFill="#81e3ff">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="236.0" layoutY="32.0" style="-fx-background-color: #000000; -fx-opacity: .9; -fx-background-radius: 10;" text="Encryption" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="110.0" layoutY="94.0" onAction="#ceaser" prefHeight="39.0" prefWidth="163.0" style="-fx-background-color: #00394d; -fx-background-radius: 10; -fx-opacity: .9;" text="Ceaser" textFill="#81e3ff">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="408.0" layoutY="94.0" onAction="#trans" prefHeight="39.0" prefWidth="163.0" style="-fx-background-color: #00394d; -fx-background-radius: 10; -fx-opacity: .9;" text="Transposition" textFill="#81e3ff">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="408.0" layoutY="155.0" onAction="#full" prefHeight="39.0" prefWidth="163.0" style="-fx-background-color: #00394d; -fx-background-radius: 10; -fx-opacity: .9;" text="full vigenere" textFill="#81e3ff">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="110.0" layoutY="220.0" onAction="#play" prefHeight="39.0" prefWidth="163.0" style="-fx-background-color: #00394d; -fx-background-radius: 10; -fx-opacity: .9;" text="play fair techniqu" textFill="#81e3ff">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="408.0" layoutY="220.0" onAction="#com" prefHeight="39.0" prefWidth="163.0" style="-fx-background-color: #00394d; -fx-background-radius: 10; -fx-opacity: .9;" text="combination" textFill="#81e3ff">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="110.0" layoutY="280.0" onAction="#one" prefHeight="39.0" prefWidth="163.0" style="-fx-background-color: #00394d; -fx-background-radius: 10; -fx-opacity: .9;" text="one time" textFill="#81e3ff">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="408.0" layoutY="280.0" onAction="#hill" prefHeight="39.0" prefWidth="163.0" style="-fx-background-color: #00394d; -fx-background-radius: 10; -fx-opacity: .9;" text="hill cipher" textFill="#81e3ff">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</Pane>
